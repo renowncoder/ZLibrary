@@ -10,6 +10,6 @@ public class MainFragment extends PreferenceFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-    addPreferencesFromResource(R.xml.pref_main);
+        addPreferencesFromResource(R.xml.pref_main);
     }
 }
