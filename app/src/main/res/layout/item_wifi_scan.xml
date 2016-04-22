@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_ssid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wifi name" />
+
+    <TextView
+        android:id="@+id/tv_contected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_ssid"
+        android:layout_marginTop="10dp"
+        android:text="是否已经连接" />
+
+
+    <TextView
+        android:id="@+id/tv_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="WPS" />
+
+
+</RelativeLayout>

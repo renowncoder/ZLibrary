@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceCategory>
-        <Preference
-            android:key="@string/pref_key_circleimg"
-            android:title="圆角图片">
-            <intent
-                android:targetClass="com.duzhou.zlibray.circleImage.CircleImageActivity"
-                android:targetPackage="com.duzhou.zlibray"></intent>
-        </Preference>
-    </PreferenceCategory>
+    <Preference
+        android:key="@string/pref_key_circleimg"
+        android:title="圆角ImageView">
+        <intent
+            android:targetClass="com.duzhou.zlibray.circleImage.CircleImageActivity"
+            android:targetPackage="com.duzhou.zlibray"></intent>
+    </Preference>
+
+    <Preference
+        android:key="@string/pref_key_wifi"
+        android:title="WIFI manager">
+        <intent
+            android:targetClass="com.duzhou.zlibray.wifi.WifiActivity"
+            android:targetPackage="com.duzhou.zlibray"></intent>
+    </Preference>
+
+
 </PreferenceScreen>
