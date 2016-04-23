@@ -62,6 +62,29 @@
 
     <string name="pref_key_circleimg">pref_key_circleimg</string>
     <string name="pref_key_wifi">pref_key_wifi</string>
+    <string name="pref_key_security">pref_key_security</string>
+    <string name="pref_key_list">pref_key_list</string>
+
+
+
+
+    <!--activity security -->
+    <string name="security_des_title">DES加密测试</string>
+    <string name="security_des_ed_hint">数据源(以字符串做测试)</string>
+    <string name="security_des_key">密钥:</string>
+    <string name="security_des_btn">加密处理</string>
+    <string name="security_des_encode_result">DES加密结果:</string>
+    <string name="security_des_decode_result">DES解密结果:</string>
+
+
+    <string name="security_aes_title">aes加密测试</string>
+    <string name="security_aes_ed_hint">数据源(以字符串做测试)</string>
+    <string name="security_aes_key">密钥:</string>
+    <string name="security_aes_btn">加密处理</string>
+    <string name="security_aes_encode_result">aes加密结果:</string>
+    <string name="security_aes_decode_result">aes解密结果:</string>
+
+
 
 
 </resources>

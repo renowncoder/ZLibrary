@@ -17,4 +17,23 @@
     </Preference>
 
 
+    <Preference
+        android:key="@string/pref_key_security"
+        android:title="加密">
+        <intent
+            android:targetClass="com.duzhou.zlibray.security.SecurityActivity"
+            android:targetPackage="com.duzhou.zlibray"></intent>
+    </Preference>
+
+    <Preference
+        android:key="@string/pref_key_list"
+        android:title="listView">
+        <intent
+            android:targetClass="com.duzhou.zlibray.listadapter.TestActivity"
+            android:targetPackage="com.duzhou.zlibray"></intent>
+    </Preference>
+
+
+
+
 </PreferenceScreen>
