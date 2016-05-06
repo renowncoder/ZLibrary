@@ -1,18 +1,18 @@
-package com.duzhou.zlibray.circleImage;
+package com.duzhou.zlibray.clockview;
 
 import android.app.Activity;
 import android.os.Bundle;
 
 import com.duzhou.zlibray.BaseActivity;
-import com.duzhou.zlibray.R;
 
 /**
- * Created by zhou on 16/4/19.
+ * Created by zhou on 16-5-6.
  */
-public class CircleImageActivity extends BaseActivity {
+public class ClockActivity extends BaseActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_circle_img);
+        setContentView(new ClockView(this));
     }
 }

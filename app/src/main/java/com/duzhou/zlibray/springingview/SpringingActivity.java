@@ -1,14 +1,15 @@
 package com.duzhou.zlibray.springingview;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.view.animation.Animation;
 import android.view.animation.AnimationSet;
 import android.view.animation.RotateAnimation;
 import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 
+import com.duzhou.zlibray.BaseActivity;
 import com.duzhou.zlibray.R;
 
 import butterknife.Bind;
@@ -17,7 +18,7 @@ import butterknife.ButterKnife;
 /**
  * Created by zhou on 16-4-25.
  */
-public class SpringingActivity extends AppCompatActivity {
+public class SpringingActivity extends BaseActivity {
     @Bind(R.id.image)
     ImageView imageView;
     @Bind(R.id.bendingTextView)

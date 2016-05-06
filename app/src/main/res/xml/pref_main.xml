@@ -26,14 +26,20 @@
     </Preference>
 
     <Preference
-        android:key="@string/pref_key_spring"
-        android:title="Springing view">
+        android:key="@string/pref_key_clockview"
+        android:title="自定义view-钟表">
         <intent
-            android:targetClass="com.duzhou.zlibray.springingview.SpringingActivity"
+            android:targetClass="com.duzhou.zlibray.clockview.ClockActivity"
             android:targetPackage="com.duzhou.zlibray"></intent>
     </Preference>
 
-
+    <Preference
+        android:key="@string/pref_key_zbar"
+        android:title="二维码条形码扫描">
+        <intent
+            android:targetClass="com.duzhou.zlibray.scan.ScanActivity"
+            android:targetPackage="com.duzhou.zlibray"></intent>
+    </Preference>
 
 
 </PreferenceScreen>

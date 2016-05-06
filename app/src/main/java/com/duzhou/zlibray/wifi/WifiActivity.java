@@ -20,6 +20,7 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.duzhou.zlibray.BaseActivity;
 import com.duzhou.zlibray.R;
 
 import org.w3c.dom.Text;
@@ -37,7 +38,7 @@ import butterknife.OnItemLongClick;
 /**
  * Created by zhou on 16-4-22.
  */
-public class WifiActivity extends AppCompatActivity {
+public class WifiActivity extends BaseActivity {
 
     @Bind(R.id.sw_wifi_status)
     Switch status;

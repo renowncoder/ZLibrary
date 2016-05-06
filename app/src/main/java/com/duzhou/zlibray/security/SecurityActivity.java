@@ -1,12 +1,13 @@
 package com.duzhou.zlibray.security;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.duzhou.zlibray.BaseActivity;
 import com.duzhou.zlibray.R;
 
 import butterknife.Bind;
@@ -16,7 +17,7 @@ import butterknife.OnClick;
 /**
  * Created by zhou on 16-4-23.
  */
-public class SecurityActivity extends AppCompatActivity {
+public class SecurityActivity extends BaseActivity {
 
     @Bind(R.id.ed_des_data)
     EditText desData;
