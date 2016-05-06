@@ -42,4 +42,23 @@
     </Preference>
 
 
+    <Preference
+        android:key="@string/pref_key_spring"
+        android:title="阻尼效果的动画">
+        <intent
+            android:targetClass="com.duzhou.zlibray.springingview.SpringingActivity"
+            android:targetPackage="com.duzhou.zlibray"></intent>
+    </Preference>
+
+
+    <Preference
+        android:key="@string/pref_key_bluetooth"
+        android:title="Bluetooth">
+        <intent
+            android:targetClass="com.duzhou.zlibray.bluetooth.BlueToothActivity"
+            android:targetPackage="com.duzhou.zlibray"></intent>
+    </Preference>
+
+
+
 </PreferenceScreen>

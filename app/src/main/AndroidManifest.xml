@@ -11,6 +11,9 @@
 
     <uses-permission android:name="android.permission.CAMERA" />
 
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+
     <application
         android:name=".App"
         android:allowBackup="true"
@@ -36,6 +39,7 @@
         <activity android:name=".scan.ScanActivity" />
         <activity android:name=".scan.ZBarActivity" />
         <activity android:name=".scan.ZXingActivity" />
+        <activity android:name=".bluetooth.BlueToothActivity" />
     </application>
 
 
