@@ -3,10 +3,13 @@ package com.duzhou.zlibray;
 import android.app.Activity;
 import android.view.MenuItem;
 
+import butterknife.ButterKnife;
+
 /**
  * Created by zhou on 16-5-6.
  */
 public class BaseActivity extends Activity {
+
     @Override
     protected void onResume() {
         super.onResume();

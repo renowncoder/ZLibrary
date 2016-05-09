@@ -20,7 +20,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@android:style/Theme.Material.Light.DarkActionBar">
+        android:theme="@style/AppTheme1">
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
@@ -40,6 +40,7 @@
         <activity android:name=".scan.ZBarActivity" />
         <activity android:name=".scan.ZXingActivity" />
         <activity android:name=".bluetooth.BlueToothActivity" />
+        <activity android:name=".bluetooth.BlueToothSocketActivity" />
     </application>
 
 
